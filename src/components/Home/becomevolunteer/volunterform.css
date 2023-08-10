@@ -1,0 +1,98 @@
+.containerV{
+    /* position: absolute;
+    margin-top: 3000px; */
+}
+.volunteer {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./imagevol.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.volunteer .volunteer-content {
+    padding: 30px 0 45px 0;
+}
+
+.container .volunteer {
+    margin: 90px 0;
+}
+
+.container .volunteer .volunteer-content {
+    padding: 45px 30px 15px 30px;
+}
+
+.volunteer .volunteer-content .section-header {
+    margin-bottom: 30px;
+}
+
+.volunteer .volunteer-content .section-header h2 {
+    color: #ffffff;
+}
+
+.volunteer .volunteer-text p {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 90px;
+    padding-right: 10px;
+}
+@media (max-width:600px){
+    .volunteer .volunteer-content .section-header {
+        padding-left: 20PX;
+        padding-right: 10px;
+    }
+    .volunteer .volunteer-text p {
+        font-size: 18px;
+        padding-left: 20PX;
+        padding-right: 10px;
+    } 
+}
+.volunteer .volunteer-form {
+    padding: 90px 30px;
+    background: transparent;
+}
+
+.volunteer .volunteer-form .control-group {
+    margin-bottom: 15px;
+}
+
+.volunteer .volunteer-form .form-control {
+    height: 60px;
+    color: #ffffff;
+    padding: 0 15px;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+
+.volunteer .volunteer-form textarea.form-control {
+    height: 120px;
+    padding: 15px;
+}
+
+.volunteer .volunteer-form .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.volunteer .volunteer-form .form-control:-ms-input-placeholder,
+.volunteer .volunteer-form .form-control::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.volunteer .volunteer-form .btn.btn-custom {
+    padding: 15px 0;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+
+.volunteer .volunteer-form .btn.btn-custom:hover {
+    color: #FDBE33;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 30px #ffffff;
+}
